@@ -1,0 +1,243 @@
+body{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+
+.title {
+    font-family: Raleway;
+    text-align: center;
+    margin: 100px auto 37px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+
+.line{
+    width: 64px;
+    height: 2px;
+    margin: 0 auto;
+    background: #E72424;
+}
+
+
+.sub_title{
+    margin: 34px 0 67px 0;
+    text-align: center;
+}
+
+/*Контент в кружочках*/
+.circle_block{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 108px;
+}
+
+.circle_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content_pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 0 auto 30px;
+}
+.circle_text p{
+    width: 360px;
+    height: 60px;
+
+}
+
+/*Блок с ценообразованием*/
+
+.pricing_options{
+    background: #F5F5F5;
+    padding: 1px 0 60px;
+}
+
+.pricing_columns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column{
+    text-align: center;
+}
+
+.cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 50px;
+    margin: 1px auto;
+
+}
+
+.fill_color1{
+    background: #333333;
+}
+
+.fill_color2{
+    background: #FFFFFF;
+}
+
+.basic{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin: 0 auto;
+}
+
+.price{
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin: 1px auto 0;
+}
+
+.free_for_life{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 2px auto;
+}
+.string{
+    font-weight: 400;
+    color: #86878B;
+    margin: 2px auto;
+}
+
+/*Контент с городом*/
+.city{
+    background: url("static/BG.png") no-repeat;
+    object-fit: fill;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 38px;
+}
+
+.city::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+
+}
+
+#text2{
+    text-align: center;
+    padding: 76px 0 45px 0;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.line-white{
+    background: #FFFFFF;
+}
+
+.button-border {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #ffffff;
+  padding: 11px 26px;
+  border: 1px solid #ffffff;
+  background: none;
+
+}
+
+
+#sub_line2{
+    padding: 15px 0;
+}
+.block-comments {
+    display: flex;
+    font-size: 14px;
+    color: #86878B;
+    justify-content: space-around;
+    margin-bottom: 112px;
+}
+
+.comment_author{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.signature{
+    text-align: right;
+}
+
+.comment_author img{
+    object-fit: none;
+}
+
+.comment_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 298px;
+    background-color: #E2E2E2;
+    border-radius: 7px;
+    padding: 5px 14px;
+}
+
+.commentator_name{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.role{
+    color: #86878B;
+}
+
+footer{
+    /*display: flex;*/
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    width: 100%;
+    height: 101px;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.footer_img{
+    object-fit: none;
+    margin-top: 30px;
+}
