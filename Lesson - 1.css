@@ -1,3 +1,10 @@
+* {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
 body{
     font-family: Open Sans;
     font-style: normal;
@@ -13,11 +20,14 @@ body{
     text-align: center;
 }
 
+.awesome{
+    padding-top: 80px;
+}
 
 .title {
     font-family: Raleway;
     text-align: center;
-    margin: 100px auto 37px;
+    margin: 0 auto 37px;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -63,7 +73,8 @@ body{
     margin: 0 auto 30px;
 }
 .circle_text p{
-    width: 360px;
+    margin-top: 16px;
+    width: 350px;
     height: 60px;
 
 }
@@ -72,16 +83,20 @@ body{
 
 .pricing_options{
     background: #F5F5F5;
-    padding: 1px 0 60px;
+    padding: 80px 0 60px;
 }
 
 .pricing_columns{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .column{
     text-align: center;
+}
+
+.column:nth-child(2){
+    margin-top: -15px;
 }
 
 .cell{
@@ -91,7 +106,7 @@ body{
     width: 340px;
     height: 50px;
     margin: 1px auto;
-
+    font-weight: 700;
 }
 
 .fill_color1{
@@ -104,15 +119,16 @@ body{
 
 .basic{
     font-size: 20px;
-    font-weight: 700;
+
     color: white;
     margin: 0 auto;
 }
 
 .price{
+    height: 100px;
     font-family: Raleway;
     font-size: 35px;
-    font-weight: 700;
+
     color: white;
     margin: 1px auto 0;
 }
@@ -125,6 +141,7 @@ body{
     margin: 2px auto;
 }
 .string{
+    height: 40px;
     font-weight: 400;
     color: #86878B;
     margin: 2px auto;
@@ -133,32 +150,27 @@ body{
 /*Контент с городом*/
 .city{
     background: url("static/BG.png") no-repeat;
-    object-fit: fill;
-    text-align: center;
-    width: 100%;
     background-size: cover;
-    margin: 0 auto;
+    padding: 0 0 38px;
+    position: relative;
     color: white;
-    padding-bottom: 38px;
+    padding-top: 48px;
 }
 
 .city::after{
     content: "";
-    width: 100%;
     position: absolute;
     top: 0;
-
-
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
 }
 
-#text2{
-    text-align: center;
-    padding: 76px 0 45px 0;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
+.block-city__content {
+  position: relative;
+  z-index: 2;
+
 }
 
 .line-white{
@@ -179,19 +191,27 @@ body{
 
 }
 
-
-#sub_line2{
-    padding: 15px 0;
+.opacity{
+    /*color: rgb(255, 255, 255);*/
+    color: rgba(255, 255, 255, 0.5);
+    /*color: red;*/
 }
+/*customers block*/
+
+.customers{
+    margin-top: 87px;
+}
+
 .block-comments {
     display: flex;
     font-size: 14px;
     color: #86878B;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 112px;
 }
 
 .comment_author{
+    margin-top: 22px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -213,7 +233,7 @@ body{
     width: 298px;
     background-color: #E2E2E2;
     border-radius: 7px;
-    padding: 5px 14px;
+    padding: 14px 14px;
 }
 
 .commentator_name{
