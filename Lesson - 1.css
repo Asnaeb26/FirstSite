@@ -19,7 +19,112 @@ body{
 
     text-align: center;
 }
+   /*----------------header----------------*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
 
+    color: rgba(250, 250, 250, 0.7);
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+.flex_container{
+    display: flex;
+}
+
+a{
+    color: rgba(250, 250, 250, 0.7);
+    text-decoration: none;
+}
+
+a:hover {
+     text-decoration: underline;
+}
+
+.logo{
+    font-family: Raleway;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+span{
+    color: red;
+}
+
+.links{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    /*position: absolute;*/
+    margin: 0 0 0 auto;
+}
+
+.links p{
+    margin: 0 28px;
+}
+
+.links p:last-child{
+    margin-right: 0;
+}
+
+    /*----------------social media block----------------*/
+.social_media{
+    width: auto;
+    height: 110px;
+    /*display: flex;*/
+    background: #F8EFEF;
+    /*padding: 14px 0;*/
+}
+
+.social_media_text {
+    text-align: start;
+}
+
+.social_media_text h1{
+    padding-top: 14px;
+}
+
+.logos{
+    display: flex;
+    /*text-align: center;*/
+    padding: 0;
+    align-items: center;
+    margin: 0 0 0 auto;
+}
+
+.logos i {
+    margin: 0 35px;
+}
+
+.logos i:last-child {
+    margin-right: 0;
+}
+
+.social_media_text h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.social_media_text p{
+    width: 365px;
+}
+.color_gray{
+    color: #86878B;
+}
+/*----------------TABS block*----------------------*/
+.tabs-block{
+    height: 600px;
+}
+.tab-text p {
+    text-transform: uppercase;
+}
+
+/*----------------awesome block*----------------------*/
 .awesome{
     padding-top: 80px;
 }
@@ -48,7 +153,7 @@ body{
     text-align: center;
 }
 
-/*Контент в кружочках*/
+/*----------------Контент в кружочках----------------*/
 .circle_block{
     display: flex;
     justify-content: space-around;
@@ -79,7 +184,7 @@ body{
 
 }
 
-/*Блок с ценообразованием*/
+/*----------------Блок с ценообразованием----------------*/
 
 .pricing_options{
     background: #F5F5F5;
@@ -147,7 +252,7 @@ body{
     margin: 2px auto;
 }
 
-/*Контент с городом*/
+/*----------------Контент с городом----------------*/
 .city{
     background: url("static/BG.png") no-repeat;
     background-size: cover;
@@ -196,10 +301,14 @@ body{
     color: rgba(255, 255, 255, 0.5);
     /*color: red;*/
 }
-/*customers block*/
+/*----------------customers block----------------*/
 
 .customers{
     margin-top: 87px;
+}
+
+.sub_title_customers{
+    color: #86878B;
 }
 
 .block-comments {
@@ -218,6 +327,8 @@ body{
 }
 
 .signature{
+    display: flex;
+    flex-direction: column;
     text-align: right;
 }
 
@@ -240,16 +351,18 @@ body{
     font-size: 20px;
     font-weight: 700;
     color: black;
+    padding-top: 8px;
 }
 
 .role{
+    padding-top: 12px;
     color: #86878B;
 }
-
+/*-------------------footer block-----------------------*/
 footer{
     /*display: flex;*/
     justify-content: center;
-    align-content: center;
+    /*align-content: center;*/
     background-color: black;
     width: 100%;
     height: 101px;
@@ -257,8 +370,10 @@ footer{
     text-align: center;
     color: rgba(255, 255, 255, 0.5)
 }
-
-.footer_img{
-    object-fit: none;
-    margin-top: 30px;
+.logos-mini{
+    padding: 30px 0 18px;
 }
+.logos-mini i {
+    margin: 0 15px;
+}
+

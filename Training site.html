@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Training site</title>
     <link rel="shortcut icon" href="static/image%202.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="Lesson%20-%201.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -11,6 +12,67 @@
 </head>
 
 <body>
+            <!-- Header-->
+    <header>
+        <div class="container flex_container">
+            <div class="logo">AX<span>IT</span></div>
+            <div class="links">
+                <p><a href="">Features</a></p>
+                <p><a href="">About</a></p>
+                <p><a href="#pricing_options">Pricing</a></p>
+                <p><a href="">Reviews</a></p>
+                <p><a href="">Contact</a></p>
+            </div>
+        </div>
+    </header>
+            <!-- AXIT-->
+    <section class="axit_content">
+        <div class="container">
+
+        </div>
+    </section>
+            <!-- Social media-->
+    <section class="social_media">
+        <div class="container flex_container">
+            <div class="social_media_text">
+                <h1>Social Media</h1>
+                <p class="color_gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+            </div>
+            <div class="logos">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" style="font-size:42px;color:#cccccc;"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"  style="font-size:42px;color:#cccccc;"></i></a>
+                <a href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"  style="font-size:42px;color:#cccccc;"></i></a>
+                <a href="https://www.pinterest.ru" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"  style="font-size:42px;color:#cccccc;"></i></a>
+                <a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"  style="font-size:42px;color:#cccccc;"></i></a>
+                <a href="https://www.stumbleupon.com/" target="_blank"><i class="fa fa-stumbleupon socialmargin" aria-hidden="true"  style="font-size:42px;color:#cccccc;"></i></a>
+                <a href="https://rss.com/" target="_blank"><i class="fa fa-rss" aria-hidden="true"  style="font-size:42px;color:#cccccc;"></i></a>
+            </div>
+        </div>
+    </section>
+            <!-- Tabs -->
+    <section class="tabs-block">
+        <div class="container flex_container">
+            <div class="tabs-button">
+                <div class="tab1">Tab 1</div>
+            </div>
+            <div class="tab-content">
+                <div class="tab-text"
+                    <h1>TABS WITH SOFT TRANSITIONING EFFECT.</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                        penatibus et magnis dis parturient montes.
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet.
+                    </p>
+                    <button class="button-border"> Download</button>
+                <div class="tab-image"></div>
+            </div>
+
+        </div>
+    </section>
             <!-- Контент в кружочках-->
     <section class="awesome">
         <div class="container">
@@ -63,7 +125,7 @@
         </div>
     </section>
             <!-- pricing options block -->
-    <section class="pricing_options">
+    <section class="pricing_options" id="pricing_options">
         <div class="container">
             <div class="title">PRICING OPTIONS</div>
             <div class="line"></div>
@@ -173,7 +235,7 @@
                 WHAT OUR CUSTOMERS ARE SAYING
             </div>
             <div class="line"></div>
-            <div class="sub_title">
+            <div class="sub_title sub_title_customers">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div class="block-comments">
@@ -189,7 +251,7 @@
                         <img src="static/avatar.png">
                         <div class="signature">
                             <p class="commentator_name">Jeremy H.</p>
-                            <p class="role">manager</p>
+                            <p class="role">Manager</p>
                         </div>
                     </div>
                 </div>
@@ -205,7 +267,7 @@
                         <img src="static/avatar.png">
                         <div class="signature">
                             <p class="commentator_name">Jeremy H.</p>
-                            <p class="role">manager</p>
+                            <p class="role">Manager</p>
                         </div>
                     </div>
                 </div>
@@ -221,7 +283,7 @@
                         <img src="static/avatar.png">
                         <div class="signature">
                             <p class="commentator_name">Jeremy H.</p>
-                            <p class="role">manager</p>
+                            <p class="role">Manager</p>
                         </div>
                     </div>
                 </div>
@@ -250,8 +312,19 @@
 
     </section>
             <footer>
-                <img src="static/social__icons.png" class="footer_img">
+                <div class="container">
+                    <div class="logos-mini">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" style="font-size:23px;color:#cccccc;"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"  style="font-size:23px;color:#cccccc;"></i></a>
+                    <a href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"  style="font-size:23px;color:#cccccc;"></i></a>
+                    <a href="https://www.pinterest.ru" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"  style="font-size:23px;color:#cccccc;"></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"  style="font-size:23px;color:#cccccc;"></i></a>
+                    <a href="https://www.stumbleupon.com/" target="_blank"><i class="fa fa-stumbleupon socialmargin" aria-hidden="true"  style="font-size:23px;color:#cccccc;"></i></a>
+                    <a href="https://rss.com/" target="_blank"><i class="fa fa-rss" aria-hidden="true"  style="font-size:23px;color:#cccccc;"></i></a>
+                </div>
                 <p>© 2015 Axure Themes</p>
+                </div>
+
             </footer>
 
 
