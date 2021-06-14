@@ -17,7 +17,7 @@ body{
     width: 1180px;
     margin: 0 auto;
 
-    text-align: center;
+    /*text-align: center;*/
 }
    /*----------------header----------------*/
 header{
@@ -33,6 +33,7 @@ header{
 }
 .flex_container{
     display: flex;
+    align-items: center;
 }
 
 a{
@@ -70,7 +71,32 @@ span{
 .links p:last-child{
     margin-right: 0;
 }
+    /*----------------Axit block----------------*/
+.axit_content{
+    background: url("static/axit city.png") no-repeat;
+    background-size: cover;
+    height: 600px;
+    /*padding: 48px 0 38px;*/
+    position: relative;
+    color: white;
+}
+.axit_content::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+}
+.z-index{
+    position: relative;
+    z-index: 2;
+}
 
+.axit-logo{
+    font-size: 60px;
+}
     /*----------------social media block----------------*/
 .social_media{
     width: auto;
@@ -119,9 +145,70 @@ span{
 /*----------------TABS block*----------------------*/
 .tabs-block{
     height: 600px;
+    /*padding-top: 126px;*/
 }
+.tabs-buttons{
+    /*align-content: center;*/
+    align-items: center;
+}
+
+.tab1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 112px;
+    height: 110px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #333333;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.tab1:first-child{
+    background-color: #EC7979;
+    margin-top: 0;
+}
+.tab-text h1 {
+    text-transform: uppercase;
+    margin-bottom: 58px;
+    font-size: 20px;
+}
+
 .tab-text p {
     text-transform: uppercase;
+    line-height: 19px;
+    margin-bottom: 89px;
+}
+.tab-content{
+    display: flex;
+    text-align: start;
+    margin-right: 0;
+}
+.tab-text{
+    width: 570px;
+    margin-left: 118px;
+}
+
+.tab-image{
+    background: url("static/tabs-image.png") no-repeat;
+    height: 253px;
+    width: 320px;
+    padding: 48px 0 38px;
+    position: relative;
+    color: white;
+}
+.button{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #ffffff;
+    padding: 11px 26px;
+    border: 1px solid #FFFFFF;
+    background: #EC7979;
 }
 
 /*----------------awesome block*----------------------*/
@@ -177,6 +264,11 @@ span{
     box-sizing: border-box;
     margin: 0 auto 30px;
 }
+
+.circle_text{
+    text-align: center;
+}
+
 .circle_text p{
     margin-top: 16px;
     width: 350px;
@@ -256,10 +348,9 @@ span{
 .city{
     background: url("static/BG.png") no-repeat;
     background-size: cover;
-    padding: 0 0 38px;
+    padding: 48px 0 38px;
     position: relative;
     color: white;
-    padding-top: 48px;
 }
 
 .city::after{
@@ -283,17 +374,10 @@ span{
 
 }
 
-.button-border {
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  text-align: center;
-
-  color: #ffffff;
-  padding: 11px 26px;
-  border: 1px solid #ffffff;
-  background: none;
-
+.button-empty {
+    background: none;
+    display: flex;
+    margin: 0 auto;
 }
 
 .opacity{
