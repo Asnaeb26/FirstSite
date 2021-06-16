@@ -24,12 +24,18 @@ body{
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-    /*text-align: center;*/
+    /*margin: 0 auto;*/
 
     color: #ffffff;
     padding: 11px 26px;
     border: 1px solid #FFFFFF;
     background: #EC7979;
+}
+
+.button-empty {
+    background: none;
+    display: flex;
+    /*margin: 0 auto;*/
 }
 
    /*----------------header----------------*/
@@ -113,6 +119,7 @@ span{
 }
 
 .axit-logo{
+    /*font-family: Roboto;*/
     line-height: 70px;
     font-size: 60px;
 }
@@ -128,19 +135,19 @@ span{
 .axit-line{
     width: 64px;
     height: 0;
-    border: 1px solid #FFFFFF;
+    border: 1px solid rgba(250, 250, 250, 0.45);
 }
 
 .axit-text2{
     width: 282px;
     font-size: 16px;
     margin: 39px 0;
-    color: white;
+    color: rgba(250, 250, 250, 0.45);;
 }
 
 .axit-button{
     border-color: #FFFFFF;
-    margin-left: 0;
+    margin: 0 0 101px 0;
 }
 .right-part{
     display: flex;
@@ -163,6 +170,7 @@ span{
     justify-content: center;
     height: 56px;
     font-weight: 700;
+    color: #333333;
     color: #333333;
     font-size: 20px;
     position: absolute;
@@ -200,6 +208,7 @@ input{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
+
 
 /*----------------social media block----------------*/
 .social_media{
@@ -302,9 +311,8 @@ input{
     padding: 48px 0 38px;
     position: relative;
     color: white;
+    margin-left: 60px;
 }
-
-
 /*----------------awesome block*----------------------*/
 .awesome{
     padding-top: 80px;
@@ -467,18 +475,15 @@ input{
     background: #FFFFFF;
 
 }
-
-.button-empty {
-    background: none;
-    display: flex;
-    /*margin: 0 auto;*/
-}
-
 .opacity{
     /*color: rgb(255, 255, 255);*/
     color: rgba(255, 255, 255, 0.5);
     /*color: red;*/
 }
+.city-button{
+    margin: 0 auto;
+}
+
 /*----------------customers block----------------*/
 
 .customers{
@@ -536,6 +541,66 @@ input{
     padding-top: 12px;
     color: #86878B;
 }
+/*----------------contact us block---------------------*/
+.color_gray2{
+    color: #BDBDBD;
+}
+.contact_us{
+    /*height: 700px;*/
+    padding-top: 80px;
+}
+.contact_us-title{
+    color: #212121;
+}
+.contact-width{
+    width: 478px;
+}
+.contact-forms{
+    display: flex;
+    justify-content: center;
+}
+
+.message-form{
+    margin-left: 220px;
+}
+
+.message-line{
+    margin: 0 0 48px 0;
+    width: 478px;
+    height: 1px;
+    background-color: #BDBDBD;
+}
+
+.message-text{
+    width: 478px;
+    height: 216px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    resize: none;
+}
+
+.send_message{
+    /*margin: 0 auto;*/
+}
+
+.contact-input{
+    width: 478px;
+    /*background-color: aliceblue;*/
+    margin-top: 10px;
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+.contact-button{
+    display: flex;
+    justify-content: center;
+    margin: 68px 0 44px;
+}
+
+.message-button{
+    text-align: center;
+    margin: 0 auto ;
+}
+
 /*-------------------footer block-----------------------*/
 footer{
     /*display: flex;*/

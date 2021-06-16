@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Lesson%20-%201.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -51,11 +51,6 @@
                     <p><input name="password" id="password" form="form-trial"></p>
                     <div class="form-line"></div>
                 </div>
-
-<!--                <form id="data"></form>-->
-<!--                <p><input placeholder="Ваше имя" name="user" form="data"></p>-->
-<!--                <p><input type="submit" value="Отправить форму" form="data"></p>-->
-
                 <button type="submit" form="form-trial" class="get_started" id="get_started" >Get Started</button>
             </div>
         </div>
@@ -331,14 +326,41 @@
                 <div class="sub_title">
                     <p class="opacity">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
                 </div>
-
-                <button class="button button-empty"> Download</button>
+                <button class="button button-empty city-button"> Download</button>
             </div>
         </div>
     </section>
             <!-- contact us block-->
-    <section class="contact_us">
-
+    <section class="contact_us container">
+            <div class="title">
+                CONTACT US
+            </div>
+            <div class="line"></div>
+            <div class="sub_title sub_title_customers">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="contact-forms color_gray2">
+                <div class="inform-form contact-width">
+                    <form id="message-form"></form>
+                    <label for="name-message">Name</label><br>
+                    <p><input class="contact-input" name="name-message" id="name-message" form="message-form"></p>
+                    <div class="message-line contact-width"></div>
+                    <label for="email-message">Email</label><br>
+                    <p><input class="contact-input" type="email" name="email" id="email-message" form="message-form"></p>
+                    <div class="message-line contact-width"></div>
+                    <label for="password-message">Password</label><br>
+                    <p><input class="contact-input" type="password" name="password" id="password-message" form="message-form"></p>
+                    <div class="message-line contact-width"></div>
+                </div>
+                <div class="message-form color_gray2">
+                    <label for="message">Message</label><br>
+                    <p><textarea class="message-text" type="text" name="message" id="message" form="message-form"></textarea></p>
+                    <div class="message-line contact-width"></div>
+                </div>
+            </div>
+            <div class="contact-button">
+                <button class="button message-button" type="submit" form="form-trial"  id="button-message" >Send Message</button><br>
+            </div>
     </section>
             <!-- footer block-->
     <footer>
