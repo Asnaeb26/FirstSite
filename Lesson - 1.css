@@ -235,7 +235,7 @@ input{
     margin: 0 0 0 auto;
 }
 
-.logos i {
+.logos a {
     margin: 0 35px;
 }
 
@@ -257,8 +257,7 @@ input{
 }
 /*----------------TABS block*----------------------*/
 .tabs-block{
-    height: 600px;
-    /*padding-top: 126px;*/
+    padding-top: 126px;
 }
 .tabs-buttons{
     /*align-content: center;*/
