@@ -1,3 +1,10 @@
+* {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
 body{
     font-family: Open Sans;
     font-style: normal;
@@ -10,14 +17,310 @@ body{
     width: 1180px;
     margin: 0 auto;
 
-    text-align: center;
+    /*text-align: center;*/
 }
 
+.button{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    /*margin: 0 auto;*/
+
+    color: #ffffff;
+    padding: 11px 26px;
+    border: 1px solid #FFFFFF;
+    background: #EC7979;
+}
+
+.button-empty {
+    background: none;
+    display: flex;
+    /*margin: 0 auto;*/
+}
+
+   /*----------------header----------------*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    color: rgba(250, 250, 250, 0.7);
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+.flex_container{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: rgba(250, 250, 250, 0.7);
+    text-decoration: none;
+}
+
+a:hover {
+     text-decoration: underline;
+}
+
+.logo{
+    font-family: Raleway;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+span{
+    color: #EC7979;
+}
+
+.links{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    /*position: absolute;*/
+    margin: 0 0 0 auto;
+}
+
+.links p{
+    margin: 0 28px;
+}
+
+.links p:last-child{
+    margin-right: 0;
+}
+    /*----------------Axit block----------------*/
+.axit_content{
+    background: url("static/axit city.png") no-repeat;
+    background-size: cover;
+    /*height: 600px;*/
+    /*padding: 48px 0 38px;*/
+    position: relative;
+    color: white;
+    padding-top: 108px;
+}
+
+.axit-container {
+
+}
+.axit_content::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+}
+.z-index{
+    position: relative;
+    z-index: 2;
+}
+
+.axit-logo{
+    /*font-family: Roboto;*/
+    line-height: 70px;
+    font-size: 60px;
+}
+
+.axit-text{
+    margin: 32px 0;
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 42px;
+    width: 544px;
+}
+
+.axit-line{
+    width: 64px;
+    height: 0;
+    border: 1px solid rgba(250, 250, 250, 0.45);
+}
+
+.axit-text2{
+    width: 282px;
+    font-size: 16px;
+    margin: 39px 0;
+    color: rgba(250, 250, 250, 0.45);;
+}
+
+.axit-button{
+    border-color: #FFFFFF;
+    margin: 0 0 101px 0;
+}
+.right-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 370px;
+    background-color:white;
+    border-radius: 8px;
+    margin-right: 0;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.trial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    font-weight: 700;
+    color: #333333;
+    color: #333333;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    /*background-color: #E72424;*/
+}
+
+.entered{
+    color: #BDBDBD;
+}
+
+input{
+    width: 252px;
+    /*background-color: #EC7979;*/
+}
+
+.form-line{
+    width: 252px;
+    height: 3px;
+    border-top: 1px solid #BDBDBD;
+    margin-bottom: 19px;
+}
+
+.get_started{
+    flex-direction: row;
+    width: 370px;
+    height: 53px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #EC7979;
+    border-radius: 0 0 8px 8px;
+    position: absolute;
+    bottom: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+
+/*----------------social media block----------------*/
+.social_media{
+    width: auto;
+    height: 110px;
+    /*display: flex;*/
+    background: #F8EFEF;
+    /*padding: 14px 0;*/
+}
+
+.social_media_text {
+    text-align: start;
+}
+
+.social_media_text h1{
+    padding-top: 14px;
+}
+
+.logos{
+    display: flex;
+    /*text-align: center;*/
+    padding: 0;
+    align-items: center;
+    margin: 0 0 0 auto;
+}
+
+.logos a {
+    margin: 0 35px;
+}
+
+.logos i:last-child {
+    margin-right: 0;
+}
+
+.social_media_text h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.social_media_text p{
+    width: 365px;
+}
+.color_gray{
+    color: #86878B;
+}
+/*----------------TABS block*----------------------*/
+.tabs-block{
+    padding-top: 126px;
+}
+.tabs-buttons{
+    /*align-content: center;*/
+    align-items: center;
+}
+
+.tab1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 112px;
+    height: 110px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #333333;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.tab1:first-child{
+    background-color: #EC7979;
+    margin-top: 0;
+}
+.tab-text h1 {
+    text-transform: uppercase;
+    margin-bottom: 58px;
+    font-size: 20px;
+}
+
+.tab-text p {
+    text-transform: uppercase;
+    line-height: 19px;
+    margin-bottom: 89px;
+}
+.tab-content{
+    display: flex;
+    text-align: start;
+    margin-right: 0;
+}
+.tab-text{
+    width: 570px;
+    margin-left: 118px;
+}
+
+.tab-image{
+    background: url("static/tabs-image.png") no-repeat;
+    height: 253px;
+    width: 320px;
+    padding: 48px 0 38px;
+    position: relative;
+    color: white;
+    margin-left: 60px;
+}
+/*----------------awesome block*----------------------*/
+.awesome{
+    padding-top: 80px;
+}
 
 .title {
     font-family: Raleway;
     text-align: center;
-    margin: 100px auto 37px;
+    margin: 0 auto 37px;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -38,7 +341,7 @@ body{
     text-align: center;
 }
 
-/*Контент в кружочках*/
+/*----------------Контент в кружочках----------------*/
 .circle_block{
     display: flex;
     justify-content: space-around;
@@ -62,26 +365,36 @@ body{
     box-sizing: border-box;
     margin: 0 auto 30px;
 }
+
+.circle_text{
+    text-align: center;
+}
+
 .circle_text p{
-    width: 360px;
+    margin-top: 16px;
+    width: 350px;
     height: 60px;
 
 }
 
-/*Блок с ценообразованием*/
+/*----------------Блок с ценообразованием----------------*/
 
 .pricing_options{
     background: #F5F5F5;
-    padding: 1px 0 60px;
+    padding: 80px 0 60px;
 }
 
 .pricing_columns{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .column{
     text-align: center;
+}
+
+.column:nth-child(2){
+    margin-top: -15px;
 }
 
 .cell{
@@ -91,7 +404,7 @@ body{
     width: 340px;
     height: 50px;
     margin: 1px auto;
-
+    font-weight: 700;
 }
 
 .fill_color1{
@@ -104,15 +417,16 @@ body{
 
 .basic{
     font-size: 20px;
-    font-weight: 700;
+
     color: white;
     margin: 0 auto;
 }
 
 .price{
+    height: 100px;
     font-family: Raleway;
     font-size: 35px;
-    font-weight: 700;
+
     color: white;
     margin: 1px auto 0;
 }
@@ -125,78 +439,78 @@ body{
     margin: 2px auto;
 }
 .string{
+    height: 40px;
     font-weight: 400;
     color: #86878B;
     margin: 2px auto;
 }
 
-/*Контент с городом*/
+/*----------------Контент с городом----------------*/
 .city{
     background: url("static/BG.png") no-repeat;
-    object-fit: fill;
-    text-align: center;
-    width: 100%;
     background-size: cover;
-    margin: 0 auto;
+    padding: 48px 0 38px;
+    position: relative;
     color: white;
-    padding-bottom: 38px;
 }
 
 .city::after{
     content: "";
-    width: 100%;
     position: absolute;
     top: 0;
-
-
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
 }
 
-#text2{
-    text-align: center;
-    padding: 76px 0 45px 0;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
+.block-city__content {
+  position: relative;
+  z-index: 2;
+
 }
 
 .line-white{
     background: #FFFFFF;
-}
-
-.button-border {
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  text-align: center;
-
-  color: #ffffff;
-  padding: 11px 26px;
-  border: 1px solid #ffffff;
-  background: none;
 
 }
-
-
-#sub_line2{
-    padding: 15px 0;
+.opacity{
+    /*color: rgb(255, 255, 255);*/
+    color: rgba(255, 255, 255, 0.5);
+    /*color: red;*/
 }
+.city-button{
+    margin: 0 auto;
+}
+
+/*----------------customers block----------------*/
+
+.customers{
+    margin-top: 87px;
+}
+
+.sub_title_customers{
+    color: #86878B;
+}
+
 .block-comments {
     display: flex;
     font-size: 14px;
     color: #86878B;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 112px;
 }
 
 .comment_author{
+    margin-top: 22px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
 .signature{
+    display: flex;
+    flex-direction: column;
     text-align: right;
 }
 
@@ -212,23 +526,85 @@ body{
     width: 298px;
     background-color: #E2E2E2;
     border-radius: 7px;
-    padding: 5px 14px;
+    padding: 14px 14px;
 }
 
 .commentator_name{
     font-size: 20px;
     font-weight: 700;
     color: black;
+    padding-top: 8px;
 }
 
 .role{
+    padding-top: 12px;
     color: #86878B;
 }
+/*----------------contact us block---------------------*/
+.color_gray2{
+    color: #BDBDBD;
+}
+.contact_us{
+    /*height: 700px;*/
+    padding-top: 80px;
+}
+.contact_us-title{
+    color: #212121;
+}
+.contact-width{
+    width: 478px;
+}
+.contact-forms{
+    display: flex;
+    justify-content: center;
+}
 
+.message-form{
+    margin-left: 220px;
+}
+
+.message-line{
+    margin: 0 0 48px 0;
+    width: 478px;
+    height: 1px;
+    background-color: #BDBDBD;
+}
+
+.message-text{
+    width: 478px;
+    height: 216px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    resize: none;
+}
+
+.send_message{
+    /*margin: 0 auto;*/
+}
+
+.contact-input{
+    width: 478px;
+    /*background-color: aliceblue;*/
+    margin-top: 10px;
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+.contact-button{
+    display: flex;
+    justify-content: center;
+    margin: 68px 0 44px;
+}
+
+.message-button{
+    text-align: center;
+    margin: 0 auto ;
+}
+
+/*-------------------footer block-----------------------*/
 footer{
     /*display: flex;*/
     justify-content: center;
-    align-content: center;
+    /*align-content: center;*/
     background-color: black;
     width: 100%;
     height: 101px;
@@ -236,8 +612,10 @@ footer{
     text-align: center;
     color: rgba(255, 255, 255, 0.5)
 }
-
-.footer_img{
-    object-fit: none;
-    margin-top: 30px;
+.logos-mini{
+    padding: 30px 0 18px;
 }
+.logos-mini i {
+    margin: 0 15px;
+}
+

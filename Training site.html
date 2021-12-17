@@ -4,21 +4,108 @@
     <meta charset="UTF-8">
     <title>Training site</title>
     <link rel="shortcut icon" href="static/image%202.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="Lesson%20-%201.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <section>
+            <!-- Header-->
+    <header>
+        <div class="container flex_container">
+            <div class="logo">AX<span>IT</span></div>
+            <div class="links">
+                <p><a href="">Features</a></p>
+                <p><a href="">About</a></p>
+                <p><a href="#pricing_options">Pricing</a></p>
+                <p><a href="">Reviews</a></p>
+                <p><a href="">Contact</a></p>
+            </div>
+        </div>
+    </header>
+            <!-- axit_content block-->
+    <section class="axit_content">
+        <div class="container flex_container z-index">
+            <div class="left-part">
+                <div class="logo axit-logo">AX<span>IT</span></div>
+                <div class="axit-text">
+                    MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+                </div>
+                <div class="axit-line"></div>
+                <p class="axit-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</p>
+                <button class="button button-empty axit-button"> Download</button>
+            </div>
+            <div class="right-part z-index">
+                <div class="trial">Try Your<pre> </pre><span>FREE</span><pre> </pre>Trial Today</div>
+                <div class="entered">
+                    <form id="form-trial">
+                        <label for="name">Name</label><br>
+                        <p><input name="name" id="name" form="form-trial"></p>
+                        <div class="form-line"></div>
+                        <label for="email">Email</label><br>
+                        <p><input name="email" id="email" form="form-trial"></p>
+                        <div class="form-line"></div>
+                        <label for="password">Password</label><br>
+                        <p><input name="password" id="password" form="form-trial"></p>
+                        <div class="form-line"></div>
+                    </form>
+                </div>
+                <button type="submit" form="form-trial" class="get_started" id="get_started" >Get Started</button>
+            </div>
+        </div>
+
+    </section>
+            <!-- social media block-->
+    <section class="social_media">
+        <div class="container flex_container">
+            <div class="social_media_text">
+                <h1>Social Media</h1>
+                <p class="color_gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+            </div>
+            <div class="logos">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" style="font-size:42px;color:#cccccc;"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"  style="font-size:42px;color:#cccccc;"></i></a>
+                <a href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"  style="font-size:42px;color:#cccccc;"></i></a>
+                <a href="https://www.pinterest.ru" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"  style="font-size:42px;color:#cccccc;"></i></a>
+                <a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"  style="font-size:42px;color:#cccccc;"></i></a>
+                <a href="https://www.stumbleupon.com/" target="_blank"><i class="fa fa-stumbleupon socialmargin" aria-hidden="true"  style="font-size:42px;color:#cccccc;"></i></a>
+                <a href="https://rss.com/" target="_blank"><i class="fa fa-rss" aria-hidden="true"  style="font-size:42px;color:#cccccc;"></i></a>
+            </div>
+        </div>
+    </section>
+            <!-- Tabs -->
+    <section class="tabs-block container flex_container">
+            <div class="tabs-buttons">
+                <div class="tab1">Tab 1</div>
+                <div class="tab1">Tab 1</div>
+                <div class="tab1">Tab 1</div>
+            </div>
+            <div class="tab-content">
+                <div class="tab-text">
+                    <h1>Tabs with soft transitioning effect.</h1>
+                    <p class="color_gray">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                        penatibus et magnis dis parturient montes.<br><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet.
+                    </p>
+                    <button class="button"> Download</button>
+                </div>
+                <div class="tab-image"></div>
+            </div>
+    </section>
+            <!-- Контент в кружочках-->
+    <section class="awesome">
         <div class="container">
             <div class="title">WHY THIS IS AWESOME</div>
             <div class="line"></div>
             <div class="sub_title">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <!-- Контент в кружочках-->
             <div class="circle_block">
                 <div class="circle_content">
                     <div class="content_pic">
@@ -60,191 +147,239 @@
                     </div>
                 </div>
             </div>
-            <!-- pricing options block -->
-            <div class="pricing_options">
-                <div class="title">PRICING OPTIONS</div>
-                <div class="line"></div>
-                <div class="sub_title">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-                <div class="pricing_columns">
-                    <div class="column">
-                        <div class="basic cell fill_color1">
-                            Basic
-                        </div>
-                        <div class="price cell fill_color1">
-                            $0
-                        </div>
-                        <div class="free_for_life cell fill_color1">
-                            Free for life
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-
-                    </div>
-                    <div class="column">
-                        <div class="basic cell fill_color1">
-                            Basic
-                        </div>
-                        <div class="price cell fill_color1">
-                            $0
-                        </div>
-                        <div class="free_for_life cell fill_color1">
-                            Free for life
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-
-                    </div>
-                    <div class="column">
-                        <div class="basic cell fill_color1">
-                            Basic
-                        </div>
-                        <div class="price cell fill_color1">
-                            $0
-                        </div>
-                        <div class="free_for_life cell fill_color1">
-                            Free for life
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-                        <div class="string cell fill_color2">
-                            1 gb of space
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- manager block -->
-            <div class="manager">
-                <div class="title">
-                    WHAT OUR CUSTOMERS ARE SAYING
-                </div>
-                <div class="line"></div>
-                <div class="sub_title">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="block-comments">
-                    <div class="comment">
-                        <p class="comment_area">
-                            Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. Doloribus
-                            accusamus expedita repellat similique
-                            odio aspernatur ex, architecto eaque
-                            quo suscipit.
-                        </p>
-                        <div class="comment_author">
-                            <img src="static/avatar.png">
-                            <div class="signature">
-                                <p class="commentator_name">Jeremy H.</p>
-                                <p class="role">manager</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="comment">
-                        <p class="comment_area">
-                            Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. Doloribus
-                            accusamus expedita repellat similique
-                            odio aspernatur ex, architecto eaque
-                            quo suscipit.
-                        </p>
-                        <div class="comment_author">
-                            <img src="static/avatar.png">
-                            <div class="signature">
-                                <p class="commentator_name">Jeremy H.</p>
-                                <p class="role">manager</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="comment">
-                        <p class="comment_area">
-                            Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. Doloribus
-                            accusamus expedita repellat similique
-                            odio aspernatur ex, architecto eaque
-                            quo suscipit.
-                        </p>
-                        <div class="comment_author">
-                            <img src="static/avatar.png">
-                            <div class="signature">
-                                <p class="commentator_name">Jeremy H.</p>
-                                <p class="role">manager</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="city">
-                    <div id="text2">
-                        STYLISH AXURE DESIGN
-                    </div>
-                        <div class="container">
-                            <div class="line line-white"></div>
-                            <p id="sub_line2">
-                                Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
-                            </p>
-                            <button class="button-border"> Download</button>
-                        </div>
-
-            </div>
-
-            <footer>
-                <img src="static/social__icons.png" class="footer_img">
-                <p>© 2015 Axure Themes</p>
-            </footer>
         </div>
     </section>
+            <!-- pricing options block -->
+    <section class="pricing_options">
+        <div class="container">
+            <div class="title">PRICING OPTIONS</div>
+            <div class="line"></div>
+            <div class="sub_title">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </div>
+            <div class="pricing_columns">
+            <div class="column">
+                <div class="basic cell fill_color1">
+                    Basic
+                </div>
+                <div class="price cell fill_color1">
+                    $0
+                </div>
+                <div class="free_for_life cell fill_color1">
+                    Free for life
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
 
+            </div>
+            <div class="column">
+                <div class="basic cell fill_color1">
+                    Basic
+                </div>
+                <div class="price cell fill_color1">
+                    $0
+                </div>
+                <div class="free_for_life cell fill_color1">
+                    Free for life
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+
+            </div>
+            <div class="column">
+                <div class="basic cell fill_color1">
+                    Basic
+                </div>
+                <div class="price cell fill_color1">
+                    $0
+                </div>
+                <div class="free_for_life cell fill_color1">
+                    Free for life
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+                <div class="string cell fill_color2">
+                    1 gb of space
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+            <!-- customers block -->
+    <section class="customers">
+        <div class="container">
+            <div class="title">
+                WHAT OUR CUSTOMERS ARE SAYING
+            </div>
+            <div class="line"></div>
+            <div class="sub_title sub_title_customers">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="block-comments">
+                <div class="comment">
+                    <p class="comment_area">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.
+                    </p>
+                    <div class="comment_author">
+                        <img src="static/avatar.png">
+                        <div class="signature">
+                            <p class="commentator_name">Jeremy H.</p>
+                            <p class="role">Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p class="comment_area">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.
+                    </p>
+                    <div class="comment_author">
+                        <img src="static/avatar.png">
+                        <div class="signature">
+                            <p class="commentator_name">Jeremy H.</p>
+                            <p class="role">Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p class="comment_area">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.
+                    </p>
+                    <div class="comment_author">
+                        <img src="static/avatar.png">
+                        <div class="signature">
+                            <p class="commentator_name">Jeremy H.</p>
+                            <p class="role">Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+            <!-- block city -->
+    <section class="city">
+        <div class="block-city__content">
+            <div class="container">
+                <div class="title">
+                STYLISH AXURE DESIGN
+                </div>
+                <div class="line line-white"></div>
+                <div class="sub_title">
+                    <p class="opacity">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+                </div>
+                <button class="button button-empty city-button"> Download</button>
+            </div>
+        </div>
+    </section>
+            <!-- contact us block-->
+    <section class="contact_us container">
+            <div class="title">
+                CONTACT US
+            </div>
+            <div class="line"></div>
+            <div class="sub_title sub_title_customers">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="contact-forms color_gray2">
+                <div class="inform-form contact-width">
+                    <form id="message-form">
+                        <label for="name-message">Name</label><br>
+                        <p><input class="contact-input" name="name-message" id="name-message" form="message-form"></p>
+                        <div class="message-line contact-width"></div>
+                        <label for="email-message">Email</label><br>
+                        <p><input class="contact-input" type="email" name="email" id="email-message" form="message-form"></p>
+                        <div class="message-line contact-width"></div>
+                        <label for="password-message">Password</label><br>
+                        <p><input class="contact-input" type="password" name="password" id="password-message" form="message-form"></p>
+                        <div class="message-line contact-width"></div>
+                    </form>
+                </div>
+                <div class="message-form color_gray2">
+                    <label for="message">Message</label><br>
+                    <p><textarea class="message-text" type="text" name="message" id="message" form="message-form"></textarea></p>
+                    <div class="message-line contact-width"></div>
+                </div>
+            </div>
+            <div class="contact-button">
+                <button class="button message-button" type="submit" form="form-trial"  id="button-message" >Send Message</button><br>
+            </div>
+    </section>
+            <!-- footer block-->
+    <footer>
+        <div class="container">
+            <div class="logos-mini">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" style="font-size:23px;color:#cccccc;"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"  style="font-size:23px;color:#cccccc;"></i></a>
+            <a href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"  style="font-size:23px;color:#cccccc;"></i></a>
+            <a href="https://www.pinterest.ru" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"  style="font-size:23px;color:#cccccc;"></i></a>
+            <a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"  style="font-size:23px;color:#cccccc;"></i></a>
+            <a href="https://www.stumbleupon.com/" target="_blank"><i class="fa fa-stumbleupon socialmargin" aria-hidden="true"  style="font-size:23px;color:#cccccc;"></i></a>
+            <a href="https://rss.com/" target="_blank"><i class="fa fa-rss" aria-hidden="true"  style="font-size:23px;color:#cccccc;"></i></a>
+        </div>
+        <p>© 2015 Axure Themes</p>
+        </div>
+
+    </footer>
 </body>
 </html>
 
